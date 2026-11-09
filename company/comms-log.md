@@ -1,4 +1,4 @@
-# Client Communications Log — {{CLIENT_NAME}}
+# Client Communications Log — Future Works
 
 Captures every meaningful interaction with the client. Used by:
 - `gtm-skills/client-health-scorer.md` to assess sentiment

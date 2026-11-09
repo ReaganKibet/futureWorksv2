@@ -1,4 +1,4 @@
-# Decision Log — {{CLIENT_NAME}}
+# Decision Log — Future Works
 
 Captures WHY decisions were made — not just what the data shows. Lets future-Harry (and future-Claude) understand the reasoning behind every winning variant, signal pivot, and campaign change.
 
@@ -22,6 +22,34 @@ Each entry has 4 parts:
 
 <!-- Newest entries first. Append above the older ones. -->
 
+### 2026-11-09 — OS onboarded from raw client documents
+
+**Context:**
+- Source: 7 Future Works PDFs in `raw/` (Positioning R11, ICP 27 Oct 2026, Buying Triggers, Elevator Pitches, Lead Magnets, Market Size, Mission/Values) plus the case-studies CSV and notes scraped from future.works on 3 Nov 2026.
+- `raw/onboarding-intake.md` was blank, so client-side facts (contacts, contract, SLA, targets, infrastructure) were not available.
+
+**Decision:**
+Filled `_config.md`, `overview.md`, `icp.md`, `offer.md`, `voice.md`, `competitive-intel.md` and `MEMORY.md` from the raw documents. Unknowns marked `{{TO CONFIRM}}`.
+
+**Why:**
+- Where documents conflicted, the newest (ICP doc, updated 27 Oct 2026) was treated as authoritative: Philips 2-6x (not 3x), JLL roadmap in eight weeks (not four), outbound floor 501+ employees / ~$250M revenue (not 500+ / ~$200M), Philips and NextPower kept anonymous, no figures in Email 1.
+- Every conflict is listed in `company/MEMORY.md` Open Questions for client confirmation.
+
+**Most stealable element:**
+Reading a client's vendor-briefing docs as the voice and claims rulebook (approved lines, banned words, retired terms) before any copy is written.
+
+**Do NOT carry over:**
+Future Works-specific language rules (no em dashes, anonymous Philips/NextPower, "AI transformation with skin in the game").
+
+**Linked entries:**
+- `company/MEMORY.md` → Open Questions
+- `company/voice.md` → Approved Claims
+
+**Outcome (to update later):**
+Pending client confirmation of the conflicts and the missing contract/infrastructure details.
+
+---
+
 ### {{YYYY-MM-DD}} — {{Short title — e.g. "Logged Email 1 v4 as winner (hiring signal)"}}
 
 **Context:**
@@ -42,7 +70,7 @@ Each entry has 4 parts:
 {{The single pattern to replicate elsewhere — e.g. "Specific signal number + named client + dollar saved" structure for Part 1 and 2.}}
 
 **Do NOT carry over:**
-{{What is client-specific and should not be templated — e.g. "The $100k saved figure is {{CLIENT_NAME}}-only."}}
+{{What is client-specific and should not be templated — e.g. "The $100k saved figure is Future Works-only."}}
 
 **Linked entries:**
 - `company/copy-library.md` → {{variant name}}

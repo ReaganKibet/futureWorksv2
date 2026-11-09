@@ -1,4 +1,4 @@
-# Copy Library — {{CLIENT_NAME}}
+# Copy Library — Future Works
 
 Archive of top-performing emails and a graveyard of underperformers for this client. Read before writing any new copy.
 
@@ -18,7 +18,7 @@ Before writing any new copy:
 
 ## Top Performers
 
-### {{Variant name — e.g. "{{CLIENT_NAME}} Email 1 v3 — Hiring Signal"}}
+### {{Variant name — e.g. "Future Works Email 1 v3 — Hiring Signal"}}
 
 | Field | Detail |
 |-------|--------|

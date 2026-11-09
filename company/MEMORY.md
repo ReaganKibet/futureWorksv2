@@ -1,4 +1,4 @@
-# MEMORY — {{CLIENT_NAME}}
+# MEMORY — Future Works
 
 **Always-loaded scratchpad.** This file is read at the start of every Claude session for this client. It is the "what is currently top of mind" working memory — distinct from the structured logs.
 
@@ -22,11 +22,8 @@ If something belongs in one of the other files, write it there. Only use MEMORY 
 
 ## Active Focus
 
-What is currently top of mind for this account. Update when priorities shift.
-
-- {{e.g. "Funding v2 PRR declining — running T-006 reframe test this week"}}
-- {{e.g. "Renewal in 47 days — need a strong week to set up {{PRIMARY_CONTACT}}'s confidence"}}
-- {{e.g. "Client just hired a new VP Marketing — may want to brief them on outbound approach"}}
+- 2026-11-09: Company files filled from `raw/` client documents. Remaining gaps are client-side facts (contacts, contract, SLA, success targets, Instantly infrastructure) marked `{{TO CONFIRM}}`.
+- Lead-list analysis and Email 1 drafts already exist in `analysis/` (Oil & Energy v1, industrial machinery). Check them against the ICP before launch (see Watch-outs).
 
 ---
 
@@ -36,7 +33,7 @@ Accounts where inbound signals fired recently and we are tracking conversion. It
 
 | Account | Signal | Tier | Activated | Re-check |
 |---------|--------|------|-----------|---------|
-| {{Account}} | {{signal type}} | {{A/B/C}} | {{date}} | {{date}} |
+| (none yet) | | | | |
 
 Cleared from this section when:
 - Converted to meeting → move to comms-log
@@ -47,41 +44,48 @@ Cleared from this section when:
 
 ## Client Preferences (captured ad-hoc)
 
-Things the client mentioned that should shape how we operate but are not formal SLAs. Lighter than overview.md SLA section.
+From the client's vendor-facing documents:
 
-- {{e.g. "{{PRIMARY_CONTACT}} prefers async Slack updates over scheduled calls"}}
-- {{e.g. "{{PRIMARY_CONTACT}} dislikes when reports lead with bad news — frame issues with the fix attached"}}
-- {{e.g. "Harrison is the data person — copy him on any number-heavy update"}}
+- Wants vendors to lead with the category line, then the mechanism, then one proof point.
+- Prefers a one-page brief over a deck for CEO / board buyers.
+- The live site (future.works) is the source of truth for lead-magnet links; flag missing or retired magnets to the Future Works content team.
+- Ask the Future Works contact before using market-size figures in any partnership model.
 
 ---
 
 ## Watch-outs
 
-Things to remember when working on this account. Patterns that surprised us, edge cases, sensitivities.
-
-- {{e.g. "{{PRIMARY_CONTACT}} is sensitive about 'agency churn' framing — many of his prospects have been burned by recruiters before"}}
-- {{e.g. "Avoid 'cold' language — {{PRIMARY_CONTACT}} wants outbound positioned as warm and signal-driven"}}
-- {{e.g. "Crypto industries are off limits — they had two payment disputes in 2025"}}
+- **Keep Philips and NextPower anonymous** in outbound, decks and landing pages. Use the approved anonymous lines in `company/voice.md`.
+- **No figures in the first cold email.** Proof lines only where the sequence allows.
+- **No em dashes** in any client copy. Company name is always "Future Works" (two words).
+- **Never "asset-heavy"** in copy. Never "digital transformation", "web design", "digital product".
+- **European-only accounts are disqualified** — the most common routing error. Under 501 employees / ~$250M revenue = never outbound.
+- **Exclude upstream oil and gas extraction, metals and mining.** The `analysis/` Oil & Energy list is "AllSizes-NoExcl"; filter it before any send.
+- **Certifications:** SOC 2 Type II and ISO 27001 are audits in progress. Never say "certified".
+- **Most of the 51 website case studies are brand/web work** from the earlier agency era. Only use AI/operations proof plus the approved list.
+- **No prices, percentages of fee, or the 15% bonus** in public copy; commercial conversations only.
 
 ---
 
 ## Open Questions / Pending Items
 
-Things waiting on the client, on Harry, or on a future event.
+Conflicts between raw documents (defaulted to the newest doc, the 27 Oct 2026 ICP, until confirmed):
 
-- [ ] {{e.g. "Waiting on {{PRIMARY_CONTACT}} to approve T-006 variant copy by Monday"}}
-- [ ] {{e.g. "Renewal discussion scheduled for 2026-07-01"}}
-- [ ] {{e.g. "Reviewing new champion job change source — Champify vs LoneScale, decision by Friday"}}
+- [ ] **Philips proof:** "3x return" (Positioning, Pitches, Lead Magnets, Market Size, Mission; Sep 2026) vs "2-6x return" (ICP doc Oct 2026 and website). Using 2-6x, anonymous.
+- [ ] **JLL roadmap:** "unlocked in four weeks" (Sep docs) vs "eight weeks" (ICP doc). Using eight weeks.
+- [ ] **NextPower vs NextTracker** naming and which proof to lead with (75% faster time to market vs 20,000+ work hours a year). Both anonymous now.
+- [ ] **Outbound size floor:** 500+ employees / ~$200M (Sep docs) vs 501+ / ~$250M (ICP doc). Using 501+ / ~$250M.
+- [ ] **Cycle 1 fee:** ~$400K (ICP) vs $410K (Market Size, PHL-1 SOW). Internal only.
+- [ ] Lead Magnets doc says solution briefs map to "five problem domains" but lists four briefs; item 5 is missing from the list.
+- [ ] Client contacts, contract, SLA, success criteria, reporting day.
+- [ ] Instantly workspace, sending domains, mailboxes, warmup status, tool stack.
+- [ ] `raw/onboarding-intake.md` is still a blank template; send it to the client to close the gaps above.
 
 ---
 
 ## Recent Learnings (not yet codified)
 
-Insights that have emerged but are not yet promoted to permanent files. Promote to decision-log or copy-library when confidence increases.
-
-- {{e.g. "The 'sample shortlist' CTA pattern may work across multiple clients — observed lifting reply rate on {{CLIENT_NAME}}. Try on Client B's next campaign."}}
-- {{e.g. "Negative replies cluster around 'we use Greenhouse' objection — may need to refine ICP to exclude companies with active Greenhouse subscriptions"}}
-
+- The client's own copy rules overlap with this OS's rules (no buzzwords, specifics over claims) but add stricter ones: no em dashes, no figures in Email 1, anonymous proof.
 
 ---
 
@@ -108,7 +112,7 @@ Skills auto-created by `gtm-skills/skill-forge.md` from detected patterns. Each 
 
 Older entries moved here when no longer top of mind but worth keeping searchable. Prune entries older than 90 days unless they capture something not already in permanent files.
 
-- {{date}} — {{archived note}}
+- (none yet)
 
 ---
 

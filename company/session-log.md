@@ -1,4 +1,4 @@
-# Session Log — {{CLIENT_NAME}}
+# Session Log — Future Works
 
 Per-client log of every Claude Code invocation for this client OS. Used by `gtm-skills/pattern-detector.md` to detect repeating prompts and propose new skills via `gtm-skills/skill-forge.md`.
 
@@ -56,7 +56,7 @@ Append-only archive of session-log entries past the 90-day window. Kept for long
 
 | Timestamp | Prompt summary | Skill invoked | Output / outcome |
 |-----------|---------------|---------------|------------------|
-| | | | |
+| 2026-11-09 18:00 | Fill company/ files from raw client documents | pattern-detector + client-onboarder | Log under 10 entries, detection skipped. 7 company files filled from raw/; conflicts listed in MEMORY.md |
 
 ---
 

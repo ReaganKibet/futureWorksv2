@@ -1,4 +1,4 @@
-# Test Log — {{CLIENT_NAME}}
+# Test Log — Future Works
 
 Record of every split test for this client. Every test must follow the scientific method (see `wiki/scientific-method.md`). Every entry must capture all Step 1 sub-steps explicitly — `gtm-skills/test-readiness-check.md` enforces this before any test launches.
 

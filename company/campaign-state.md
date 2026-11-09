@@ -1,8 +1,8 @@
-# Campaign State — {{CLIENT_NAME}}
+# Campaign State — Future Works
 
 Live status of all outbound campaigns. Update this file when campaigns launch, pause, change, or are retired.
 
-**Last updated:** {{DATE}}
+**Last updated:** 2026-11-09 (no live campaigns or infrastructure details in raw/ client documents; fill from the Instantly workspace)
 
 ---
 
@@ -90,5 +90,10 @@ Tracks what tooling is configured for this client. Affects which signals can be 
 ---
 
 ## State Notes
+
+- 2026-11-09: No campaign, infrastructure or tool-stack information in the raw client documents. All tables above are still {{TO CONFIRM}}.
+- Draft work exists outside company/: `analysis/` holds lead-list segmentation (industries, seniority, functions, manufacturing sub-niches, case-study map) and `analysis/oil-energy-copy-v1.md` (Email 1 drafts, 354 leads, 501+ employees). Not launched.
+- Before launch: the Oil & Energy list is labelled AllSizes-NoExcl; the ICP excludes upstream oil and gas extraction. Filter it.
+- Client tech context (not sending stack): Future Works builds on AWS, Azure and Databricks.
 
 {{Anything about the current state that does not fit the tables above — deliverability concerns, list quality issues, signals performing differently than expected, etc.}}
